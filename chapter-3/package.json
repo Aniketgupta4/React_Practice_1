@@ -1,0 +1,22 @@
+{
+  "name": "reactbasics",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aniketgupta4/React_Practice.git"
+  },
+  "author": "aniket",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aniketgupta4/React_Practice/issues"
+  },
+  "homepage": "https://github.com/Aniketgupta4/React_Practice#readme",
+  "description": "",
+  "dependencies": {
+    "parcel": "^2.15.4"
+  }
+}
