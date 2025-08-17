@@ -32,3 +32,12 @@ const div1 = React.createElement('div',{},[element,element1])
 const Reactroot = ReactDOM.createRoot(document.getElementById("root"))
 Reactroot.render(div1) // this will render both elements inside a div
 // bohot ajib type ka code hai yaar -> complex hoga or aage
+
+// this whole code is not for production -> kar shakte hai but not right for developer -> not optimize code contain comments spaces react cdns
+// first optimize the code and then use it in production
+// cdns -> hai so cdns calls hogi -> additional time laga -> and cdns file ko isi mai likh de toh size badhe ga
+// for production ready code -> optimized code chaiye -> no space no comment wala code not extra code 
+// react and react dom pe depend hai mera code 
+// main goal ki fize size less ho -> smooth work hoga //
+// BUNDLERS aaya -> pure html css js ko padhta hai and comment wagera extra chiz remove karega and give optimised code -> example vite, parcel, webpack
+// ye bundlers kya karega -> jo bhi code likha hai usko ek file me production ready code banayega
