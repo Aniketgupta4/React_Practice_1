@@ -14,6 +14,7 @@
 
 
 
+
 // react apne previous child ko gayab kar deta hai new ata hai toh
 
 // const element = React.createElement("h1",{id:"first",className:"second",style:{backgroundColor:"pink",color:"white"}},"hello")
@@ -64,4 +65,5 @@ Reactroot.render(div1) // this will render both elements inside a div
 // package.lock.json -> exact versions hote hai and dependencies and subdependencies ke bhi versions hote hai
 // node_modules -> not push to git -> git ignore me add karte hai -> kyuki ye bahut bada hota hai and har kisi ke machine me alag alag version ho sakta hai -> so ye push ni karte hai
 // node_modules ni hai phir bhi chalega -> npm install se node_modules ban jayega -> package.json se node_modules ban jayega -> so ye push ni karte hai -> ye package and package.lock.json se dekhke npm install kar deta hai
+
 // if package.lock.json ni hai tab package.json se updated wala layega warna package.lock.json se modula layega exact version 
