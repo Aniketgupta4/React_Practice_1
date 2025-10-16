@@ -13,6 +13,7 @@ const div1 = React.createElement('div',{},[element,element1])
 const Reactroot = ReactDOM.createRoot(document.getElementById("root"))
 Reactroot.render(div1)
 
+
 // build this by -> npx parcel index.html -> parcel-cache and dist new file ajeyai
 // parcel is a bundler -> index.html ko parcel ko do and parcel (bundler) optimize karega 
 // parcel-cache -> cache folder hai jo parcel use karega -> if ek baar parcel ban gya then next time build pe kam time lagega -> first time build mai jyda time lagta hai
@@ -100,3 +101,4 @@ React_root.render(meet())
 // ek sath 2 function run in jsx -> {} lagana padega because jsx<></> ke ander javacript hai function call
 
 React_root.render(<>{meet()} {greet()}</>)
+
