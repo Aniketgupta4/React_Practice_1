@@ -67,3 +67,4 @@ Reactroot.render(div1) // this will render both elements inside a div
 // node_modules ni hai phir bhi chalega -> npm install se node_modules ban jayega -> package.json se node_modules ban jayega -> so ye push ni karte hai -> ye package and package.lock.json se dekhke npm install kar deta hai
 
 // if package.lock.json ni hai tab package.json se updated wala layega warna package.lock.json se modula layega exact version 
+
